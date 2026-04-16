@@ -1,0 +1,17 @@
+.tracks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+  
+.track {
+    border: 1px solid #747bff;
+    border-radius: 8px;
+    padding: 10px;
+}
+  
+.track.selected {
+    border-color: orange;
+}
