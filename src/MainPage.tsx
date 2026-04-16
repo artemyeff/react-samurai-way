@@ -9,6 +9,7 @@ export function MainPage() {
   return (
     <>
       <PageTitle />
+      <h2>Tracks</h2>
       <div className="wrapper">
         <TracksList trackId={selectedTrackId} onTrackSelect={selectTrack} />
         <TrackDetail trackId={selectedTrackId} />
